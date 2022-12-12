@@ -5,7 +5,8 @@ from django.utils import timezone
 from django.conf import settings
 
 
-# Setting the house categoryes and to create a house with a sertian number of beds
+# Setting the house categoryes and to
+# create a house with a sertian number of beds
 
 
 class House(models.Model):
