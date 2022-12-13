@@ -25,7 +25,7 @@ class House(models.Model):
         return f'{self.number}. {self.category} with {self.beds} beds for {self.capacity} people'
 
 
-# Making a booking for a user for a sertian amount of time
+# Making a booking for a user for a certain amount of time
 
 
 class Booking(models.Model):
